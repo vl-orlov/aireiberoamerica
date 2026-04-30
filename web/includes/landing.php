@@ -177,7 +177,7 @@ if (!defined('LANDING_BODY_CLASS_SET')) {
 <div class="landing_section" id="estructura" aria-labelledby="landing_estructura_title">
   <div class="landing_container">
     <header class="landing_section_intro landing_section_intro_lg">
-      <p class="landing_kicker">Nuestra Estructura</p>
+      <p class="landing_kicker">Nuestra Estructura Institucional</p>
       <h2 class="landing_heading_2" id="landing_estructura_title">Liderazgo <span class="landing_text_accent">humano</span> y especializado</h2>
       <p class="landing_lead">AIRE combina diversidad de perfiles, experiencia internacional y vocación colaborativa. Se construye sobre la base del compromiso, la ética y el trabajo conjunto.</p>
     </header>
@@ -230,7 +230,7 @@ if (!defined('LANDING_BODY_CLASS_SET')) {
   <div class="landing_container">
     <header class="landing_section_intro landing_section_intro_center">
       <p class="landing_kicker">Ser Parte</p>
-      <h2 class="landing_heading_2" id="landing_membresias_title">Conectamos líderes, <span class="landing_text_accent">impulsamos negocios</span></h2>
+      <h2 class="landing_heading_2" id="landing_membresias_title">Conectamos líderes, <span class="landing_text_accent">Impulsamos oportunidades</span></h2>
       <p class="landing_lead landing_lead_center">Ser parte de AIRE implica integrarse a una red iberoamericana de empresas y líderes que comparten una mirada estratégica, institucional y de largo plazo.</p>
     </header>
     <div class="landing_plans">
