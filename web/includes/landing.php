@@ -189,49 +189,170 @@ if (!defined('LANDING_BODY_CLASS_SET')) {
 <div class="landing_section" id="estructura" aria-labelledby="landing_estructura_title">
   <div class="landing_container">
     <header class="landing_section_intro landing_section_intro_lg">
-      <p class="landing_kicker">Nuestra Estructura Institucional</p>
-      <h2 class="landing_heading_2" id="landing_estructura_title">Liderazgo <span class="landing_text_accent">humano</span> y especializado</h2>
-      <p class="landing_lead">AIRE combina diversidad de perfiles, experiencia internacional y vocación colaborativa. Se construye sobre la base del compromiso, la ética y el trabajo conjunto.</p>
+      <p class="landing_kicker" data-i18n="structure.kicker">Nuestra Estructura Institucional</p>
+      <h2 class="landing_heading_2" id="landing_estructura_title"><span data-i18n="structure.title.prefix">Liderazgo</span> <span class="landing_text_accent" data-i18n="structure.title.accent">humano</span> <span data-i18n="structure.title.suffix">y especializado</span></h2>
+      <p class="landing_lead" data-i18n="structure.lead">AIRE combina diversidad de perfiles, experiencia internacional y vocación colaborativa. Se construye sobre la base del compromiso, la ética y el trabajo conjunto.</p>
     </header>
     <div class="landing_grid landing_grid_2">
       <article class="landing_structure_card">
         <div class="landing_structure_icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
         <div class="landing_structure_body">
           <div class="landing_structure_headline">
-            <h3 class="landing_structure_title">Board de Gobierno</h3>
-            <span class="landing_badge">4 Oficiales</span>
+            <h3 class="landing_structure_title" data-i18n="structure.card1.title">Board de Gobierno</h3>
+            <span class="landing_badge" data-i18n="structure.card1.badge">4 Oficiales</span>
           </div>
-          <p class="landing_structure_text">Órgano de conducción estratégica que define lineamientos institucionales, prioridades de trabajo y supervisa el cumplimiento de la misión de AIRE.</p>
+          <p class="landing_structure_text" data-i18n="structure.card1.text">Órgano de conducción estratégica que define lineamientos institucionales, prioridades de trabajo y supervisa el cumplimiento de la misión de AIRE.</p>
         </div>
       </article>
       <article class="landing_structure_card">
         <div class="landing_structure_icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg></div>
         <div class="landing_structure_body">
           <div class="landing_structure_headline">
-            <h3 class="landing_structure_title">Direcciones Sectoriales</h3>
-            <span class="landing_badge">12 Direcciones</span>
+            <h3 class="landing_structure_title" data-i18n="structure.card2.title">Direcciones Sectoriales</h3>
+            <span class="landing_badge" data-i18n="structure.card2.badge">12 Direcciones</span>
           </div>
-          <p class="landing_structure_text">12 direcciones que representan las principales industrias: Tecnología, Turismo, Real Estate, Startups, Arte &amp; Cultura, Comercio Internacional y más.</p>
+          <p class="landing_structure_text" data-i18n="structure.card2.text">12 direcciones que representan las principales industrias: Tecnología, Turismo, Real Estate, Startups, Arte &amp; Cultura, Comercio Internacional y más.</p>
         </div>
       </article>
       <article class="landing_structure_card">
         <div class="landing_structure_icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
         <div class="landing_structure_body">
           <div class="landing_structure_headline">
-            <h3 class="landing_structure_title">Oficinas Transversales</h3>
-            <span class="landing_badge">5 Oficinas</span>
+            <h3 class="landing_structure_title" data-i18n="structure.card3.title">Oficinas Transversales</h3>
+            <span class="landing_badge" data-i18n="structure.card3.badge">5 Oficinas</span>
           </div>
-          <p class="landing_structure_text">Soporte estratégico y técnico: Relaciones Institucionales, Academia, Servicios Profesionales, Comunicación y Logística.</p>
+          <p class="landing_structure_text" data-i18n="structure.card3.text">Soporte estratégico y técnico: Relaciones Institucionales, Academia, Servicios Profesionales, Comunicación y Logística.</p>
         </div>
       </article>
       <article class="landing_structure_card">
         <div class="landing_structure_icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></div>
         <div class="landing_structure_body">
           <div class="landing_structure_headline">
-            <h3 class="landing_structure_title">Capítulos y Representaciones</h3>
-            <span class="landing_badge">Madrid · Murcia</span>
+            <h3 class="landing_structure_title" data-i18n="structure.card4.title">Capítulos y Representaciones</h3>
+            <span class="landing_badge" data-i18n="structure.card4.badge">Madrid · Murcia</span>
           </div>
-          <p class="landing_structure_text">Presencia institucional en distintos países y regiones para fortalecer la cooperación territorial y acompañar a los miembros en contextos locales.</p>
+          <p class="landing_structure_text" data-i18n="structure.card4.text">Presencia institucional en distintos países y regiones para fortalecer la cooperación territorial y acompañar a los miembros en contextos locales.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+
+<div class="landing_section landing_section_board" id="board" aria-labelledby="landing_board_title">
+  <div class="landing_container">
+    <header class="landing_section_intro landing_section_intro_lg">
+      <h2 class="landing_heading_2" id="landing_board_title" data-i18n="board.title">Board de Gobierno</h2>
+      <p class="landing_muted" data-i18n="board.subtitle">Oficiales</p>
+    </header>
+
+    <div class="landing_board_grid" role="list">
+      <article class="landing_board_card" role="listitem">
+        <div class="landing_board_media">
+          <img class="landing_board_img landing_board_img_javier" src="img/board/Javier.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <h3 class="landing_board_name" data-i18n="board.javier.name">Javier Cremades</h3>
+        <p class="landing_board_role" data-i18n="board.javier.role">Presidente</p>
+        <p class="landing_board_bio" data-i18n="board.javier.bio">Abogado y académico español de prestigio global, presidente de la World Jurist Association y fundador de Cremades &amp; Calvo-Sotelo. Experto en derecho constitucional, derechos humanos y derecho digital, impulsa redes internacionales que conectan líderes jurídicos y posicionan a AIRE a nivel institucional global.</p>
+      </article>
+
+      <article class="landing_board_card" role="listitem">
+        <div class="landing_board_media">
+          <img class="landing_board_img landing_board_img_elisa" src="img/board/Elisa.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <h3 class="landing_board_name" data-i18n="board.elisa.name">Elisa Weiner</h3>
+        <p class="landing_board_role" data-i18n="board.elisa.role">Vicepresidenta y Directora Ejecutiva</p>
+        <p class="landing_board_bio" data-i18n="board.elisa.bio">Trayectoria en relaciones institucionales, internacionalización y desarrollo de alianzas estratégicas. Especializada en articular empresas, líderes e instituciones, impulsa la cooperación y conexión entre mercados a nivel internacional.</p>
+      </article>
+
+      <article class="landing_board_card" role="listitem">
+        <div class="landing_board_media">
+          <img class="landing_board_img landing_board_img_monica" src="img/board/Monica.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <h3 class="landing_board_name" data-i18n="board.monica.name">Mónica González</h3>
+        <p class="landing_board_role" data-i18n="board.monica.role">Secretaria General</p>
+        <p class="landing_board_bio" data-i18n="board.monica.bio">...</p>
+      </article>
+
+      <article class="landing_board_card" role="listitem">
+        <div class="landing_board_media landing_board_media_placeholder" aria-hidden="true"></div>
+        <h3 class="landing_board_name" data-i18n="board.martin.name">Martín Bettiol</h3>
+        <p class="landing_board_role" data-i18n="board.martin.role">Tesorero</p>
+        <p class="landing_board_bio" data-i18n="board.martin.bio">...</p>
+      </article>
+    </div>
+  </div>
+</div>
+
+<div class="landing_section landing_section_directorates" id="direcciones-sectoriales" aria-labelledby="landing_directorates_title">
+  <div class="landing_container">
+    <header class="landing_section_intro landing_section_intro_lg">
+      <h2 class="landing_heading_2" id="landing_directorates_title" data-i18n="directorates.title">Direcciones Sectoriales</h2>
+    </header>
+
+    <div class="landing_directorates_grid" role="list">
+      <article class="landing_directorates_card" role="listitem">
+        <div class="landing_directorates_media">
+          <img class="landing_directorates_img landing_directorates_img_claudio" src="img/board/Claudio.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <div class="landing_directorates_body">
+          <h3 class="landing_directorates_name" data-i18n="directorates.claudio.name">Claudio Resnick</h3>
+          <p class="landing_directorates_role" data-i18n="directorates.claudio.role">Medios Audiovisuales y Entretenimiento</p>
+          <p class="landing_directorates_bio" data-i18n="directorates.claudio.bio">Empresario y productor ejecutivo, fundador y CEO de ARPI GROUP, con más de dos décadas de experiencia en la industria creativa.</p>
+        </div>
+      </article>
+
+      <article class="landing_directorates_card" role="listitem">
+        <div class="landing_directorates_media">
+          <img class="landing_directorates_img landing_directorates_img_emilio" src="img/board/Emilio.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <div class="landing_directorates_body">
+          <h3 class="landing_directorates_name" data-i18n="directorates.emilio.name">Emilio Salomon</h3>
+          <p class="landing_directorates_role" data-i18n="directorates.emilio.role">Academia &amp; Formación Ejecutiva</p>
+          <p class="landing_directorates_bio" data-i18n="directorates.emilio.bio">Académico especializado en gestión del conocimiento, fundador de Social International University y vicepresidente para América Latina de FIAM.</p>
+        </div>
+      </article>
+
+      <article class="landing_directorates_card" role="listitem">
+        <div class="landing_directorates_media">
+          <img class="landing_directorates_img landing_directorates_img_silvana" src="img/board/Silvana.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <div class="landing_directorates_body">
+          <h3 class="landing_directorates_name" data-i18n="directorates.silvana.name">Silvana Osejevich Jensen</h3>
+          <p class="landing_directorates_role" data-i18n="directorates.silvana.role">Arte &amp; Cultura</p>
+          <p class="landing_directorates_bio" data-i18n="directorates.silvana.bio">Arquitecta, escenógrafa y gestora cultural, con trayectoria en el desarrollo de proyectos de arte y cultura a nivel internacional.</p>
+        </div>
+      </article>
+
+      <article class="landing_directorates_card" role="listitem">
+        <div class="landing_directorates_media">
+          <img class="landing_directorates_img landing_directorates_img_silvia" src="img/board/Silvia.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <div class="landing_directorates_body">
+          <h3 class="landing_directorates_name" data-i18n="directorates.silvia.name">Silvia Torres Carbonell</h3>
+          <p class="landing_directorates_role" data-i18n="directorates.silvia.role">Startups &amp; Venture Capital</p>
+          <p class="landing_directorates_bio" data-i18n="directorates.silvia.bio">Referente del ecosistema emprendedor, Presidente Emérita del Centro de Entrepreneurship del IAE Business School e inversora ángel.</p>
+        </div>
+      </article>
+
+      <article class="landing_directorates_card" role="listitem">
+        <div class="landing_directorates_media">
+          <img class="landing_directorates_img landing_directorates_img_patricio" src="img/board/Patricio.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <div class="landing_directorates_body">
+          <h3 class="landing_directorates_name" data-i18n="directorates.patricio.name">Patricio Baigorrotegui</h3>
+          <p class="landing_directorates_role" data-i18n="directorates.patricio.role">Negocios en el Deporte</p>
+          <p class="landing_directorates_bio" data-i18n="directorates.patricio.bio">Cofundador de Good Morning Sports y SPORTBIZ EUROPE/LATAM, con más de 20 años de experiencia en la industria deportiva.</p>
+        </div>
+      </article>
+
+      <article class="landing_directorates_card" role="listitem">
+        <div class="landing_directorates_media">
+          <img class="landing_directorates_img landing_directorates_img_lucrecia" src="img/board/Lucrecia.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <div class="landing_directorates_body">
+          <h3 class="landing_directorates_name" data-i18n="directorates.lucrecia.name">Lucrecia Vanni</h3>
+          <p class="landing_directorates_role" data-i18n="directorates.lucrecia.role">Tecnología</p>
+          <p class="landing_directorates_bio" data-i18n="directorates.lucrecia.bio">CEO de Ecopolys Europa, con trayectoria en tecnología, sostenibilidad e innovación.</p>
         </div>
       </article>
     </div>

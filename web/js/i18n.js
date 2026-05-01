@@ -41,7 +41,7 @@ async function setLang(page, lang) {
   }
 }
 
-function initLang(page = 'landing', defaultLang = 'es') {
+function initLang(page = 'landing', defaultLang = 'en') {
   const storedLang = localStorage.getItem('lang');
   const browserLang = (navigator.language || '').split('-')[0];
 
@@ -107,11 +107,11 @@ function setupLangDropdown(page) {
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', function() {
     const page = document.body.dataset.i18nPage || 'landing';
-    initLang(page, 'es');
+    initLang(page, 'en');
     setupLangDropdown(page);
   });
 } else {
   const page = document.body.dataset.i18nPage || 'landing';
-  initLang(page, 'es');
+  initLang(page, 'en');
   setupLangDropdown(page);
 }
