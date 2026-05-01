@@ -416,7 +416,7 @@ body.landing_page {
 
 body.landing_page .landing_hero,
 body.landing_page .landing_section {
-  scroll-margin-top: 90px;
+  scroll-margin-top: 70px;
 }
 
 .landing_hero {
@@ -585,12 +585,12 @@ body.landing_page .landing_section {
 }
 
 .landing_section {
-  padding: 96px 0;
+  padding: 70px 0;
 }
 
 @media (min-width: 768px) {
   .landing_section {
-    padding: 128px 0;
+    padding: 70px 0;
   }
 }
 
