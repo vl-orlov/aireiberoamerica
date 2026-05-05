@@ -17,9 +17,11 @@ if (!defined('LANDING_BODY_CLASS_SET')) {
       <img src="img/logo.png" width="180" height="96" class="landing_nav_logo" alt="AIRE - Asociación Iberoamericana de Relaciones Empresariales">
     </a>
     <div class="landing_nav_desktop">
+      <a href="#inicio" class="landing_nav_link"><span data-i18n="nav.home">Inicio</span></a>
       <a href="#quienes-somos" class="landing_nav_link"><span data-i18n="nav.about">Quiénes Somos</span></a>
-      <a href="#servicios" class="landing_nav_link"><span data-i18n="nav.what_we_do">Servicios</span></a>
+      <a href="#servicios" class="landing_nav_link"><span data-i18n="nav.what_we_do">Ejes Estratégicos</span></a>
       <a href="#membresias" class="landing_nav_link"><span data-i18n="nav.memberships">Membresías</span></a>
+      <a href="#board" class="landing_nav_link"><span data-i18n="nav.directory">Directorio</span></a>
       <a href="#contacto" class="landing_nav_link"><span data-i18n="nav.contact">Contacto</span></a>
       <a href="#membresias" class="landing_nav_cta"><span data-i18n="nav.cta">Ser Parte</span></a>
       <div class="landing_lang" data-lang-selector role="button" tabindex="0" aria-label="Language selector">
@@ -43,9 +45,11 @@ if (!defined('LANDING_BODY_CLASS_SET')) {
   </div>
   <div class="landing_nav_mobile">
     <div class="landing_nav_mobile_inner">
+      <a href="#inicio" class="landing_nav_mobile_link"><span data-i18n="nav.home">Inicio</span></a>
       <a href="#quienes-somos" class="landing_nav_mobile_link"><span data-i18n="nav.about">Quiénes Somos</span></a>
-      <a href="#servicios" class="landing_nav_mobile_link"><span data-i18n="nav.what_we_do">Servicios</span></a>
+      <a href="#servicios" class="landing_nav_mobile_link"><span data-i18n="nav.what_we_do">Ejes Estratégicos</span></a>
       <a href="#membresias" class="landing_nav_mobile_link"><span data-i18n="nav.memberships">Membresías</span></a>
+      <a href="#board" class="landing_nav_mobile_link"><span data-i18n="nav.directory">Directorio</span></a>
       <a href="#contacto" class="landing_nav_mobile_link"><span data-i18n="nav.contact">Contacto</span></a>
       <a href="#membresias" class="landing_nav_cta landing_nav_cta_mobile"><span data-i18n="nav.cta">Ser Parte</span></a>
     </div>
@@ -317,7 +321,7 @@ if (!defined('LANDING_BODY_CLASS_SET')) {
           <img class="landing_directorates_img landing_directorates_img_silvana" src="img/board/Silvana.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
         </div>
         <div class="landing_directorates_body">
-          <h3 class="landing_directorates_name" data-i18n="directorates.silvana.name">Silvana Osejevich Jensen</h3>
+          <h3 class="landing_directorates_name" data-i18n="directorates.silvana.name">Silvana Ovsejevich Jensen</h3>
           <p class="landing_directorates_role" data-i18n="directorates.silvana.role">Arte &amp; Cultura</p>
           <p class="landing_directorates_bio" data-i18n="directorates.silvana.bio">Arquitecta, escenógrafa y gestora cultural, con trayectoria en el desarrollo de proyectos de arte y cultura a nivel internacional.</p>
         </div>
@@ -355,6 +359,98 @@ if (!defined('LANDING_BODY_CLASS_SET')) {
           <p class="landing_directorates_bio" data-i18n="directorates.lucrecia.bio">CEO de Ecopolys Europa, con trayectoria en tecnología, sostenibilidad e innovación.</p>
         </div>
       </article>
+
+      <article class="landing_directorates_card" role="listitem">
+        <div class="landing_directorates_media">
+          <img class="landing_directorates_img landing_directorates_img_lucrecia" src="img/board/Pablo.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <div class="landing_directorates_body">
+          <h3 class="landing_directorates_name" data-i18n="directorates.pablo.name">Pablo Fera</h3>
+          <p class="landing_directorates_role" data-i18n="directorates.pablo.role">Comercio Internacional</p>
+          <p class="landing_directorates_bio" data-i18n="directorates.pablo.bio">Especialista en comercio exterior, creador de “Pensar antes de exportar” y presidente de Fundación Más Valor Exportador.</p>
+        </div>
+      </article>
+
+      <article class="landing_directorates_card" role="listitem">
+        <div class="landing_directorates_media">
+          <img class="landing_directorates_img landing_directorates_img_lucrecia" src="img/board/Fernando.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <div class="landing_directorates_body">
+          <h3 class="landing_directorates_name" data-i18n="directorates.fernando.name">Fernando Tapia</h3>
+          <p class="landing_directorates_role" data-i18n="directorates.fernando.role">Turismo</p>
+          <p class="landing_directorates_bio" data-i18n="directorates.fernando.bio">Ejecutivo con más de 30 años en gestión turística, Presidente de CAMTUR y Socio Director de Operaciones en Sacramento Management.</p>
+        </div>
+      </article>
+
+      <article class="landing_directorates_card" role="listitem">
+        <div class="landing_directorates_media">
+          <img class="landing_directorates_img landing_directorates_img_lucrecia" src="img/board/Josefina.svg" alt="" loading="lazy" decoding="async" width="640" height="480">
+        </div>
+        <div class="landing_directorates_body">
+          <h3 class="landing_directorates_name" data-i18n="directorates.josefina.name">Josefina Cura</h3>
+          <p class="landing_directorates_role" data-i18n="directorates.josefina.role">Riesgos, Sostenibilidad & Certificaciones</p>
+          <p class="landing_directorates_bio" data-i18n="directorates.josefina.bio">Ingeniera y consultora en sostenibilidad, cofundadora de EIG y especialista en economía circular y estrategias ESG.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+
+<div class="landing_section" id="coordinadores" aria-labelledby="landing_coordinadores_title">
+  <div class="landing_container">
+    <header class="landing_section_intro landing_section_intro_lg">
+      <p class="landing_kicker" data-i18n="coords.kicker">Coordinadores y Capítulos</p>
+      <h2 class="landing_heading_2" id="landing_coordinadores_title" data-i18n="coords.title">Red coordinadora y representaciones</h2>
+      <p class="landing_lead" data-i18n="coords.lead">AIRE cuenta con coordinadores sectoriales y representaciones locales que articulan la presencia institucional en distintas regiones.</p>
+    </header>
+
+    <div class="landing_coords_grid">
+      <div class="landing_coords_group">
+        <h3 class="landing_coords_group_title" data-i18n="coords.offices.title">Oficinas Transversales</h3>
+        <ul class="landing_coords_list">
+          <li class="landing_coords_item">
+            <span class="landing_coords_role" data-i18n="coords.offices.institutional">Relaciones Institucionales</span>
+            <span class="landing_coords_sep">—</span>
+            <span class="landing_coords_name"><em data-i18n="coords.tbc">Por confirmar</em></span>
+          </li>
+          <li class="landing_coords_item">
+            <span class="landing_coords_role" data-i18n="coords.offices.academy">Academia</span>
+            <span class="landing_coords_sep">—</span>
+            <span class="landing_coords_name"><em data-i18n="coords.tbc">Por confirmar</em></span>
+          </li>
+          <li class="landing_coords_item">
+            <span class="landing_coords_role" data-i18n="coords.offices.professional">Servicios Profesionales</span>
+            <span class="landing_coords_sep">—</span>
+            <span class="landing_coords_name"><em data-i18n="coords.tbc">Por confirmar</em></span>
+          </li>
+          <li class="landing_coords_item">
+            <span class="landing_coords_role" data-i18n="coords.offices.communications">Comunicación</span>
+            <span class="landing_coords_sep">—</span>
+            <span class="landing_coords_name"><em data-i18n="coords.tbc">Por confirmar</em></span>
+          </li>
+          <li class="landing_coords_item">
+            <span class="landing_coords_role" data-i18n="coords.offices.logistics">Logística</span>
+            <span class="landing_coords_sep">—</span>
+            <span class="landing_coords_name"><em data-i18n="coords.tbc">Por confirmar</em></span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="landing_coords_group">
+        <h3 class="landing_coords_group_title" data-i18n="coords.chapters.title">Capítulos y Representaciones</h3>
+        <ul class="landing_coords_list">
+          <li class="landing_coords_item">
+            <span class="landing_coords_role" data-i18n="coords.chapters.madrid">Madrid, España</span>
+            <span class="landing_coords_sep">—</span>
+            <span class="landing_coords_name"><em data-i18n="coords.tbc">Por confirmar</em></span>
+          </li>
+          <li class="landing_coords_item">
+            <span class="landing_coords_role" data-i18n="coords.chapters.murcia">Murcia, España</span>
+            <span class="landing_coords_sep">—</span>
+            <span class="landing_coords_name"><em data-i18n="coords.tbc">Por confirmar</em></span>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
@@ -363,7 +459,7 @@ if (!defined('LANDING_BODY_CLASS_SET')) {
   <div class="landing_container">
     <header class="landing_section_intro landing_section_intro_center">
       <p class="landing_kicker" data-i18n="memberships.kicker">Ser Parte</p>
-      <h2 class="landing_heading_2" id="landing_membresias_title"><span data-i18n="memberships.title.prefix">Conectamos líderes, impulsamos</span> <span class="landing_text_accent" data-i18n="memberships.title.accent">Oportunidades.</span></h2>
+      <h2 class="landing_heading_2" id="landing_membresias_title"><span data-i18n="memberships.title.prefix">Conectando líderes,</span> <span class="landing_text_accent" data-i18n="memberships.title.accent">impulsando oportunidades</span></h2>
       <p class="landing_lead landing_lead_center" data-i18n="memberships.lead">Ser parte de AIRE implica integrarse a una red iberoamericana de empresas y líderes que comparten una mirada estratégica, institucional y de largo plazo.</p>
     </header>
     <div class="landing_plans">
@@ -395,7 +491,7 @@ if (!defined('LANDING_BODY_CLASS_SET')) {
         <a href="#contacto" class="landing_plan_btn landing_plan_btn_accent"><span data-i18n="plans.cta">Quiero ser parte</span><svg class="landing_plan_btn_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
       </article>
       <article class="landing_plan">
-        <h3 class="landing_plan_name" data-i18n="plans.strategic.name">Estratégica AIRE</h3>
+        <h3 class="landing_plan_name" data-i18n="plans.strategic.name">Membresía Estratégica AIRE</h3>
         <p class="landing_plan_desc" data-i18n="plans.strategic.desc">Rol institucional activo, acompañando el desarrollo a largo plazo.</p>
         <ul class="landing_plan_list">
           <li class="landing_plan_item"><svg class="landing_plan_check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span>Todo lo incluido en Premium</span></li>
@@ -493,6 +589,12 @@ if (!defined('LANDING_BODY_CLASS_SET')) {
         <div class="landing_field">
           <label class="landing_field_label" for="contact-mensaje" data-i18n="form.message.label">Mensaje</label>
           <textarea class="landing_input landing_textarea" id="contact-mensaje" name="mensaje" rows="4" data-i18n-placeholder="form.message.placeholder" placeholder="Detallá tu consulta..." required></textarea>
+        </div>
+        <div class="landing_terms_row">
+          <label class="landing_terms_label">
+            <input type="checkbox" name="terminos" class="landing_terms_checkbox" required>
+            <span data-i18n-html="form.terms">He leído y acepto los <a href="terminos.php" target="_blank" class="landing_terms_link">Términos y Condiciones</a>. Entiendo que el cobro solo se hará efectivo tras mi admisión oficial.</span>
+          </label>
         </div>
         <button type="submit" class="landing_submit landing_submit_accent">
           <span data-i18n="form.submit">Contactar al equipo AIRE</span>

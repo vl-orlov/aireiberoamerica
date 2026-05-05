@@ -250,7 +250,7 @@ body {
   background: color-mix(in srgb, var(--landing-border) 40%, transparent);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
   .landing_nav_desktop {
     display: flex;
   }
@@ -324,7 +324,7 @@ body {
   background-color: color-mix(in srgb, var(--landing-border) 35%, transparent);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
   .landing_nav_burger {
     display: none;
   }
@@ -379,7 +379,7 @@ body {
   padding-bottom: 16px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
   .landing_nav_mobile {
     display: none;
   }
@@ -1606,4 +1606,250 @@ body.landing_page .landing_section {
   .landing_footer_legal {
     font-size: 15px;
   }
+}
+
+/* ——— Coordinators & Chapters section ——— */
+.landing_coords_grid {
+  display: grid;
+  gap: 48px;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .landing_coords_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.landing_coords_group_title {
+  margin: 0 0 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--landing-primary);
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--landing-accent);
+}
+
+.landing_coords_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.landing_coords_item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--landing-border);
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.landing_coords_role {
+  font-weight: 600;
+  color: var(--landing-primary);
+  flex-shrink: 0;
+}
+
+.landing_coords_sep {
+  color: var(--landing-border);
+}
+
+.landing_coords_name {
+  color: var(--landing-muted);
+}
+
+.landing_coords_name em {
+  font-style: italic;
+}
+
+/* ——— Form T&C checkbox ——— */
+.landing_terms_row {
+  padding: 14px 16px;
+  border-radius: 10px;
+  background-color: color-mix(in srgb, var(--landing-primary) 4%, transparent);
+  border: 1px solid var(--landing-border);
+}
+
+.landing_terms_label {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--landing-muted);
+}
+
+.landing_terms_checkbox {
+  flex-shrink: 0;
+  margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  accent-color: var(--landing-accent);
+  cursor: pointer;
+}
+
+.landing_terms_link {
+  color: var(--landing-accent);
+  text-decoration: underline;
+  transition: opacity 0.15s ease;
+}
+
+.landing_terms_link:hover {
+  opacity: 0.8;
+}
+
+/* ——— Terminos page ——— */
+.terminos_nav_controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.terminos_back_link {
+  white-space: nowrap;
+}
+
+.terminos_lang_switch {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--landing-border) 75%, transparent);
+  background: color-mix(in srgb, var(--landing-bg) 88%, transparent);
+}
+
+.terminos_lang_btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  padding: 5px 13px;
+  border-radius: 999px;
+  font-family: 'Montserrat', system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--landing-primary);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  line-height: 1;
+}
+
+.terminos_lang_btn:hover {
+  background: color-mix(in srgb, var(--landing-border) 50%, transparent);
+}
+
+.terminos_lang_btn_active {
+  background: var(--landing-accent);
+  color: #fff;
+}
+
+.terminos_lang_btn_active:hover {
+  background: color-mix(in srgb, var(--landing-accent) 90%, #000);
+}
+
+.terminos_main {
+  padding-top: 80px;
+}
+
+.terminos_section {
+  padding: 64px 0;
+}
+
+.terminos_section_alt {
+  background-color: var(--landing-card);
+}
+
+.terminos_container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 32px;
+  font-family: 'Montserrat', system-ui, sans-serif;
+}
+
+.terminos_lang_badge {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background-color: var(--landing-accent);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.terminos_container h1 {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--landing-primary);
+  margin: 0 0 8px;
+}
+
+@media (min-width: 768px) {
+  .terminos_container h1 {
+    font-size: 28px;
+  }
+}
+
+.terminos_updated {
+  font-size: 13px;
+  color: var(--landing-muted);
+  margin: 0 0 40px;
+}
+
+.terminos_container h2 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--landing-primary);
+  margin: 36px 0 10px;
+}
+
+.terminos_container h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--landing-primary);
+  margin: 20px 0 6px;
+}
+
+.terminos_container p {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--landing-muted);
+  margin: 0 0 14px;
+}
+
+.terminos_container ul {
+  padding-left: 20px;
+  margin: 0 0 14px;
+}
+
+.terminos_container li {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--landing-muted);
+  margin-bottom: 6px;
+}
+
+.terminos_container a {
+  color: var(--landing-accent);
+  text-decoration: underline;
+}
+
+.terminos_container a:hover {
+  opacity: 0.8;
+}
+
+.terminos_divider {
+  margin: 0;
+  border: none;
+  border-top: 3px solid var(--landing-border);
 }
