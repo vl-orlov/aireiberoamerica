@@ -8,8 +8,8 @@
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="shortcut icon" type="image/png" href="img/logo.png">
     <link rel="apple-touch-icon" href="img/logo.png">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/i18n.js" defer></script>
+    <link rel="stylesheet" href="css/style.css?v=<?php echo filemtime(__DIR__ . '/css/style.css'); ?>">
+    <script src="js/i18n.js?v=<?php echo filemtime(__DIR__ . '/js/i18n.js'); ?>" defer></script>
 </head>
 <body data-i18n-page="landing"<?= isset($body_class) && $body_class !== '' ? ' class="' . htmlspecialchars($body_class, ENT_QUOTES, 'UTF-8') . '"' : '' ?>>
 

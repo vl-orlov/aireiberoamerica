@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="shortcut icon" type="image/png" href="img/logo.png">
     <link rel="apple-touch-icon" href="img/logo.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=<?php echo filemtime(__DIR__ . '/css/style.css'); ?>">
 </head>
 <body class="landing_page">
 

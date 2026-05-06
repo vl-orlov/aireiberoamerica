@@ -274,7 +274,7 @@ if (!defined('LANDING_BODY_CLASS_SET')) {
         </div>
         <h3 class="landing_board_name" data-i18n="board.monica.name">Mónica González</h3>
         <p class="landing_board_role" data-i18n="board.monica.role">Secretaria General</p>
-        <p class="landing_board_bio" data-i18n="board.monica.bio">...</p>
+        <p class="landing_board_bio" data-i18n="board.monica.bio">Abogada con trayectoria en asesoramiento corporativo y laboral, con foco en tecnología, protección de datos y privacidad. Lidera proyectos de riesgos legales y gobernanza para empresas, y cuenta con certificación en Data Protection.</p>
       </article>
 
       <article class="landing_board_card" role="listitem">
