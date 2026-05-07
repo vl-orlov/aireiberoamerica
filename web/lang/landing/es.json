@@ -158,6 +158,11 @@
 
   "plans.strategic.name": "Membresía Estratégica AIRE",
   "plans.strategic.desc": "Rol institucional activo, acompañando el desarrollo a largo plazo.",
+  "plans.strategic.item1": "Todo lo incluido en Premium",
+  "plans.strategic.item2": "Participación en reuniones de Directorio (con voz)",
+  "plans.strategic.item3": "Acceso prioritario a espacios estratégicos",
+  "plans.strategic.item4": "Postulación a Direcciones Sectoriales",
+  "plans.strategic.item5": "Reconocimiento como actor estratégico del ecosistema",
 
   "contact.kicker": "Contacto",
   "contact.title.prefix": "Conectemos y",

@@ -158,6 +158,11 @@
 
   "plans.strategic.name": "Strategic AIRE Membership",
   "plans.strategic.desc": "An active institutional role, supporting long-term development.",
+  "plans.strategic.item1": "Everything included in Premium",
+  "plans.strategic.item2": "Participation in Board meetings (with voting rights)",
+  "plans.strategic.item3": "Priority access to strategic spaces",
+  "plans.strategic.item4": "Candidacy for Sector Directorates",
+  "plans.strategic.item5": "Recognition as a strategic stakeholder in the ecosystem",
 
   "contact.kicker": "Contact",
   "contact.title.prefix": "Let's connect and",
